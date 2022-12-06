@@ -1,0 +1,120 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Galeria, { GaleriaConfig } from "../components/Galeria.astro";
+import Modal, { ModalConfig } from "../components/Modal.astro";
+
+const configGaleriafoto: GaleriaConfig  = { 
+id : "Foto", 
+columnas : [
+    {
+    imagenes: [
+        {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/5 Soles_Llamas Rangel Karla Fernanda-.jpg",
+
+    },
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/Autoretrato.png",
+
+    },
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/Dadaismo-Karla Fernanda Llamas Rangel.png",
+
+    },
+        
+    ]
+    
+
+},
+{
+    imagenes: [
+        {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/Foto de alimento.png",
+
+    },
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/Foto de producto.png",
+
+    },
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/TAREA 5_PALETA DE COLORES_LLAMAS RANGEL.png",
+
+    },
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/tarea 6_heroe idilico_Llamas Rangel Karla Fernanda.png",
+
+    },
+        
+    ]
+    
+
+},
+
+{
+    imagenes: [
+        {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/TAREA 9_Clave Alta_Llamas Rangel Karla Fernanda.png",
+
+    },
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/Tarea 10_clave baja editado_llamas rangel karla fernanda.png",
+
+    },
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/TAREA 7_ESTILO MINIMALISTA_LLAMAS RANGEL KARLA FERNANDA.png",
+
+    },
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/Practica 4_BODEGON_Llamas Rangel Karla Fernanda.png",
+
+    },
+        
+    ]
+    
+
+},
+
+
+   
+]
+};
+---
+<Layout titulo="Galeria Foto" descripcion="Xoko galeria foto" palabras="foto,camara,estetica,percepcion">
+    <main>
+        <section class="container-fluid bg-testimonios" style="padding: 3%;">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-light tipografia-abrilfat" style="font-size: 80px; padding: 5%">Fotografia</h1>
+                </div>
+
+            </div>
+            
+        </section>
+        <Galeria config = {configGaleriafoto}>
+        </Galeria>
+        
+    </main>
+</Layout>
+
+

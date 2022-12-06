@@ -1,0 +1,103 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.bg-barra{
+    background-color: #581D59;
+}
+.centrar{
+    margin:auto;
+    display:block;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   //width: 100%;
+  }
+.bg-sobremi{
+    background-color: #34BFBF;
+}
+.bg-servicios{
+    background-color: #f21667;
+}
+.bg-contenidodescargable{
+    background-color: #aad9a3;
+}
+.bg-footer{
+    background-color: #581D59;
+}
+.button:hover{
+    background-color: #f28322;
+    border-radius: 8px;
+    color: white;
+ 
+}
+h6{
+    color: #ffff;
+}
+h7{
+    color: #ffff;
+}
+.columns {
+    column-count: 2;
+    column-gap: 50px;
+    column-rule: 0px solid #3366FF;
+  }
+  
+.bg-secionintrocursos{
+    background-color: #c5e76e;
+  
+
+}
+.bg-ofrecemos{
+    background-color: #a1c24f;
+}  
+.bg-persuacion{
+    background-color: #88a53f;
+}
+.bg-testimonios{
+    background-color: #667e29;
+}
+ .bg-introsobremi{
+    background-color: #fbe88b;
+ }
+ .bg-softwaresobremi{
+    background-color: #a1c24f;
+ }
+ .bg-trayectoriacademica{
+    background-color: #f28322;
+ }
+ .bg-diseño{
+    background-color:#D27D60;
+ }
+
+ .navbar-brand img{
+    width: 55%px;
+
+ }
+ .navbar-brand{
+    margin-right: 0;
+ 
+ }
+ .navbar-nav{
+    align-items: center;
+ }
+ .navbar .navbar-nav .nav-link{
+    color: #ffff;
+    font-size: 1.1 em;
+    padding: 0 1em;
+
+ }
+ .tipografia-abrilfat{
+    font-family: 'Abril Fatface', cursive;
+ }
+ .font-color{
+  color: #f21667;  
+ }
+ .font-color-softwares{
+    color: #fbe88b;
+ }
+ .card-colorcursos{
+    background-color: #fbe88b;
+ }

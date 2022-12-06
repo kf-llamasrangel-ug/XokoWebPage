@@ -1,0 +1,108 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Galeria, { GaleriaConfig } from "../components/Galeria.astro";
+import Modal, { ModalConfig } from "../components/Modal.astro";
+
+const configGaleriafoto: GaleriaConfig  = { 
+id : "Foto", 
+columnas : [
+    {
+    imagenes: [
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/Pokemon_front.jpg",
+
+    },
+        {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/carteltip.jpg",
+
+    },
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/skull_flames.png",
+
+    },
+    
+        
+    ]
+    
+
+},
+{
+    imagenes: [
+        {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/triptico.png",
+
+    },
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/Alien_frente.png",
+
+    },
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/pagdirectores1.png",
+
+    },
+    
+        
+    ]
+    
+
+},
+
+{
+    imagenes: [
+        {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/casa.png",
+
+    },
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/Revista Filmica-Pag-3.png",
+
+    },
+    {
+        titulo : "minimalista",
+        alt : "imagen1",
+        src : "/images/logotipo_llamasrangel_op1_negativo-con texto.jpg",
+
+    },
+    
+    ]
+    
+
+},
+
+
+   
+]
+};
+---
+<Layout titulo="Galeria Foto" descripcion="Xoko galeria foto" palabras="foto,camara,estetica,percepcion">
+    <main>
+        <section class="container-fluid bg-diseño" style="padding: 3%;">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-light tipografia-abrilfat" style="font-size: 80px; padding: 5%">Diseño</h1>
+                </div>
+
+            </div>
+            
+        </section>
+        <Galeria config = {configGaleriafoto}>
+        </Galeria>
+        
+    </main>
+</Layout>

@@ -1,0 +1,65 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout titulo="Inicio" descripcion="" palabras="">
+	<main>
+		                                        <!--SECCION CARUSEL-->
+		<section class="container-fluid m-0 p-0">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="/images/portada-indes.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/images/animacion-indes.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="/images/alien-indes.jpg" class="d-block w-100" alt="...">
+				</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+	
+		                                        <!--SECCION SOBRE MI-->
+		<section class="container-fluid bg-sobremi " style="padding: 20vh 20%;"  >
+			<div class="row">
+				<div class="col-lg-6 tipografia-abrilfat">
+					<img src="/images/logo-XOKO-oficial-pagina-web.png"  width="369" height="355">
+					
+				</div>
+				<div class="col text-center" style="padding:auto;" >
+					<p style="padding: 12%;">XoKo es un nombre que he tomado de la palabra en nahuatl xoco.
+						Mas allá del significado del nombre quiero que forme parte de las 
+						listas de los nuevos artistas mexicanos que estamos tratando de ganar
+						terreno en cada uno de los ambitos del arte digital.
+					</p>
+				
+				</div>
+				
+			</div>
+		</section>
+
+		<!--SECCION EJEMPLOS DE SERVICIOS -->
+		<section class="container-fluid m-0 p-0">
+			<div class="row">
+				
+				<video onloadedmetadata="this.muted=true" autoplay loop>
+					<source src="/images/ejemplos de servicios.mp4">
+				</video>
+			
+			</div>
+		</section>  		  
+	</main>
+</Layout>
+
+	
